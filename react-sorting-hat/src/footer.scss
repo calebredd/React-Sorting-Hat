@@ -1,0 +1,18 @@
+.footer {
+  margin: 30px 4px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: gold;
+
+  span {
+    background: brown;
+    padding: 20px 10px;
+    border-radius: 5px;
+
+    &:hover {
+      color: white;
+      border: solid 1px white;
+    }
+  }
+}
