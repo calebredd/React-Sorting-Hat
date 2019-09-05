@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  background-color: #222;
+  padding-bottom: 40px;
+  border: 6px dashed brown;
+
+  .App-header {
+    display: flex;
+    // flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    color: gold;
+
+    .logo {}
+
+    .App-title {
+      font-size: 1.5em;
+    }
+
+  }
+
+  .hat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .hatImg {
+      width: 70vw;
+      border: solid 2px white;
+    }
+
+    .hatImg,
+    .hatButton {
+      border-radius: 5px;
+    }
+
+    .hatButton {
+      color: black;
+      font-size: 1.5em;
+      background: gold;
+
+      &:hover {
+        border: 1px solid gold;
+        background: brown;
+        color: white;
+      }
+
+    }
+  }
+
+
+}
